@@ -1,5 +1,5 @@
 const discord = require("discord.js");
-module.exports.operate = async ({client, msg, args, author, cfg}, Discord = require("discord.js"), Database = require("../models/Ceza.js")) => {
+module.exports.operate = async ({client, msg, args, author, cfg}, Discord = require("discord.js")Database = require("../models/Ceza.js")) => {
     const db = require('quick.db')
 
     const { MessageActionRow,  MessageButton } = require('discord-buttons');
@@ -109,11 +109,6 @@ ${(button.clicker.member.roles.cache.filter(a => a.name !== '@everyone').map(a =
 
 
 
-
-
-
-
-
                     
 
             }
@@ -139,20 +134,7 @@ ${(button.clicker.member.roles.cache.filter(a => a.name !== '@everyone').map(a =
                                                 };
                                             
                                         
-                                        
-                                
-                                
-                        
-                                        
-                                
-                                
-                        
-                        
-                                    
-                        
-                    
-                
-                
+      
              
     module.exports.help = {
         name: "menü",

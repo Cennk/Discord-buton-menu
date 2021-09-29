@@ -4,4 +4,4 @@ Selam arkadaşlar buraya bazı sunucularda olan kullanıcı paneli olan örnek b
 
  <hr>
 
-<img src="https://cdn.discordapp.com/attachments/882618885885550643/892892743569920060/unknown.png" alt="31" />
+<img src="https://cdn.discordapp.com/attachments/821412206498283640/892902122058809365/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3838323631383838353838.png" alt="31" />

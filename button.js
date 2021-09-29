@@ -56,7 +56,6 @@ module.exports.operate = async ({client, msg, args, author, cfg}, Discord = requ
 
 
 
-
       
     client.on('clickButton', async (button) => {
 
@@ -66,7 +65,6 @@ module.exports.operate = async ({client, msg, args, author, cfg}, Discord = requ
         let mention = msg.author;
         if(msg.mentions.members.first()) mention = msg.mentions.members.first().user;
         let mentionMember = msg.guild.members.cache.get(mention.id);
-
 
 
   button.reply.send(`Sunucuya Katılış Tarihiniz :  ${moment(mentionMember.joinedAt).format('D/MMMM/YYYY')}`,true)
@@ -79,11 +77,7 @@ module.exports.operate = async ({client, msg, args, author, cfg}, Discord = requ
         
 ${(button.clicker.member.roles.cache.filter(a => a.name !== '@everyone').map(a => a).join(' ') ? button.clicker.member.roles.cache.filter(a => a.name !== '@everyone').map(a => a).join(', ') : 'Hiç yok.')}`,true)
      
-
-
-
 }
-
 
             if(button.id == "c") {
 
@@ -116,7 +110,6 @@ ${(button.clicker.member.roles.cache.filter(a => a.name !== '@everyone').map(a =
                 
     }
         
-
 
              });
         };

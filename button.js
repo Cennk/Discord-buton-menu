@@ -96,22 +96,12 @@ ${(button.clicker.member.roles.cache.filter(a => a.name !== '@everyone').map(a =
             if(button.id == "d")  {
 
 
-
-
-
-                
-
                 let s =  db.get(`${msg.guild.id}${button.clicker.member.id}s`)
           let s2 = s
           button.reply.send("Bu sunucuda toplamda attığınız mesaj sayısı ; "+s2,true)
+       
 
-
-
-
-
-                    
-
-            }
+    }
 
                 if(button.id == "e") {
                     
@@ -124,18 +114,13 @@ ${(button.clicker.member.roles.cache.filter(a => a.name !== '@everyone').map(a =
                     button.reply.send(ambed,true)
                     
                 
-    
     }
         
 
 
-
-                                                        });
-                                                };
-                                            
-                                        
-      
-             
+             });
+        };
+                                                 
     module.exports.help = {
         name: "menü",
         alias: ["menu"]

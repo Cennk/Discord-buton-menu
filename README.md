@@ -10,5 +10,5 @@ Selam arkadaşlar buraya bazı sunucularda olan kullanıcı paneli olan örnek b
 <pre>
                      bu komutda maine gidicek  mesaj sayınızı quick.db kaydediyo 
  
-         ```client.on("message",message=>{db.add(`${message.guild.id}${message.author.id}s`,1)})```
+           client.on("message",message=>{db.add(`${message.guild.id}${message.author.id}s`,1)})
 </pre>
